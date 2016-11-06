@@ -1,0 +1,52 @@
+body {
+  background-color: #5e8fc4;
+  /*white was too bright to start with*/
+}
+
+.header{
+   display: block;
+   height: 50px;
+}
+
+.centered {
+   text-align: center;
+}
+
+.space{
+   margin-top: 30px;
+}
+
+p {
+   padding-top: 30px;
+   text-align: center;
+   color: white;
+}
+a{
+   color: white;
+}
+
+
+.quote, .author{
+   color: #5e8fc4;
+}
+
+.colors{
+   transition: all .33s ease-in;
+}
+
+.btn{
+   transition: all .33s ease-in-out;
+}
+
+#drew{
+   transition: color .33s ease-in-out; 
+}
+#drew:hover{
+   color: blue;
+}
+@media (min-width: 400px){
+   .header{
+   display: block;
+   height: 200px;
+}
+}

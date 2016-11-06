@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quote Machine - FCC fork 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- html needs
+√ 1. Field for quote to live in
+√ 2. button to call new quote
+√ 3. button to tweet current quote
+√ 4. link to portfolio or github
+5. random color generator? -->
+<body class="colors">
+<div class="container-fluid">
+   <div class="row">
+      <div class="header">
+      </div>
+   </div>
+</div>
+<div class="container">
+   <div class="row">
+      <div class="col-xs-8 col-xs-offset-2">
+         <div class="well centered">
+            
+            <button id="newQuote" class="btn btn-primary" type="submit">New Quote</button>
+            <!--make API call to get json data I replace quote h4 -->
+            
+<a id="twitter" class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large" target="blank"><button class="btn btn-primary" type="submit">Twitter</button></a>
+            <div style="display:block; height:30px"></div>
+            <h4 id="quoteText" class="quote colors space">Heres a random quote that is WAAAAAAAY tooo long.</h4>
+            <h6 id="quoteAuthor" class="author colors"> Random Author</h6>
+            <!-- replace when new Quote button clicked -->
+            
+
+            <!-- take current quote data and tweet out to twitter API
+            <p><a href="https://www.freecodecamp.com/drewpratt" target="blank">Made by Drew</a></p>
+             href to link (codepen portfolio or github or FCC profile)-->
+         </div>
+      </div>
+   </div>
+</div>
+<div>
+   <p>Made by <a id="drew" href="https://www.freecodecamp.com/drewpratt" target="blank">Drew</a></p>
+   </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+      <script src="js/index.js"></script>
+
+</body>
+</html>
