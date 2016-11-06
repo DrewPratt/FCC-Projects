@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>FreeCodeCamp : Build a personal portfolio page 1.1</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+<!-- navigation header -->
+<div class="container-fluid header">
+	<div class="row centered">
+		<div class="col-xs-1 col-xs-offset-2">
+			<!-- link to Cloudinary -->
+			<h3><a href="#about"><img class="bioImage" src="http://res.cloudinary.com/drewpratt/image/upload/v1475989699/FL8PM9QICJLZDV2.SQUARE3_buixw8.jpg" width="30px" alt="Selfie"></a></h3>
+		</div>
+		<div class="col-xs-9">
+			<div class="row">
+				<div class="col-xs-1 col-xs-offset-4">
+					<h3><a href="#about">About</a></h3>
+				</div>
+				<div class="col-xs-1 col-xs-offset-1">
+					<h3 style="margin-left: -10px"><a href="#port">Portfolio</a></h3>
+				</div>
+				<div class="col-xs-1 col-xs-offset-1">
+					<h3><a href="#contact">Contact</a></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- end navigation Header -->
+
+<!-- Bulk body -->
+<div id="about" class="container-fluid bulk">
+	<!-- about panel -->
+	<div class="aboutBase">
+		<div class="row">
+			<div class="col-xs-8 col-xs-offset-2">
+				<div class="row">
+					<div class="col-xs-6 space">
+						<h1 class="space centered"> Andrew Pratt</h1>
+						<h3 class="centered">Beginning web developer<h3>
+							<hr> </hr>
+							<h3 class="centered">
+								I like making stuff!
+							</h3>
+					</div>
+					<div class="col-xs-4 col-xs-offset-2">
+						<!-- link to Cloudinary -->
+						<h1 class="space centered" style="margin-bottom: 60px"><img class="bioImage" src="http://res.cloudinary.com/drewpratt/image/upload/v1475989699/FL8PM9QICJLZDV2.SQUARE3_buixw8.jpg" width="250px" alt="Selfie"></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end about panel -->
+
+<!-- Portfolio panel -->
+<div id="port" class="portBase">
+	<div class="container">
+		<h1 class="space centered"> Portfolio </h1>
+		<hr></hr>
+		<div class="row space">
+			<div class="col-xs-4 col-xs-offset-1">
+				<a href="http://codepen.io/AndrewPratt/full/VKAoLj/" class="thumbnail" target="blank">
+					<img class="transparent" src="http://res.cloudinary.com/drewpratt/image/upload/v1475868622/Tribute_thumbnail_tpqczm.png" alt="placeholder">
+					<p class="caption">Tribute Page</p>
+				</a>
+				<a href="#" class="thumbnail">
+					<img class="transparent jkid" src="..." alt="placeholder">
+					<p class="caption">Coming soon</p>
+				</a>
+				<a href="#" class="thumbnail">
+					<img class="transparent jkid" src="..." alt="placeholder">
+					<p class="caption">Coming soon</p>
+				</a>
+			</div>
+			<div class="col-xs-4 col-xs-offset-2">
+				<a href="#" class="thumbnail">
+					<img class="transparent jkid" src="..." alt="placeholder">
+					<p class="caption">Coming soon</p>
+				</a>
+				<a href="#" class="thumbnail">
+					<img class="transparent jkid" src="..." alt="placeholder">
+					<p class="caption">Coming soon</p>
+				</a>
+				<a href="#" class="thumbnail">
+					<img class="transparent jkid" src="..." alt="placeholder">
+					<p class="caption">Coming soon</p>
+				</a>
+			</div>
+		</div>
+		<div class="space"></div>
+	</div>
+</div>
+
+<!-- end Portfolio panel -->
+
+<!-- Contact Panel -->
+<div id="contact" class="contactBase">
+	<div class="container">
+		<h1 class="centered space"> Contact me</h1>
+		<hr></hr>
+		<div class="row">
+			<div class="col-xs-4 col-xs-offset-1">
+				<form>
+					<div class="form-group">
+						<input class="form-control" type="text" placeholder="Name">
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="email" placeholder="john@doe.com">
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="tel" placeholder="Phone number">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="3" placeholder="Message"></textarea>
+					</div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-default">Submit</button>
+					</div>
+				</form>
+			</div>
+			<div class="col-xs-4 col-xs-offset-1">
+				<h3> Heres where I tell you about all the wonderful reasons you should contact me. </h3>
+				<h3>Also, monkeys.</h3>
+			</div>
+		</div>
+		<div class="space"></div>
+	</div>
+</div>
+
+<!-- end Contact panel -->
+<!-- end Bulk Body -->
+
+<!-- footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-8 col-xs-offset-2">
+				<h1 class="centered" style="padding-top: 40px">Check me out around the web</h1>
+				<hr></hr>
+			</div>
+		</div>
+	</div>
+	<!-- Icons -->
+	<!-- add stacked font awesome icons -->
+
+	<div class="container centered">
+		<div class="row">
+			<div class="col-xs-2 col-xs-offset-3">
+				<a class="inverse" href="https://twitter.com/pratta78" target="blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i> Twitter</a>
+			</div>
+			<div class="col-xs-2">
+				<a Class="inverse" href="https://www.linkedin.com/in/drew-pratt-1906aa45" target="blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i> LinkedIn</a>
+			</div>
+			<div class="col-xs-2">
+				<a Class="inverse" href="https://github.com/DrewPratt" target="blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i> Github</a>
+			</div>
+		</div>
+		<div class="space"></div>
+	</div>
+</footer>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+  </body>
+</html>
