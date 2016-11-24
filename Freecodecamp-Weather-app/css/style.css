@@ -1,0 +1,43 @@
+body{
+  background-color: #bbd4f0;
+  transition: all 1s ease-in;
+}
+.center{
+ text-align: center;
+}
+.buttn{
+  margin-top: 25px;
+  border-radius: 50%;
+  float: left;
+  margin-left: -25px;
+  position: relative;
+}
+.temp{
+  position: relative;
+  float: right;
+  /*min-width: 135px;*/
+}
+h1, h2, h3, h4, .container{
+  color: #ffffff;
+}
+/*
+@media(max-width: 768px){
+  .temp{
+    font-size: 2rem;
+    min-width: 110px;
+  }
+  .buttn{
+    margin-left: -15px;
+  }
+}
+
+@media(max-width: 320px){
+  .temp{
+    font-size: 1.5rem;
+    min-width: 85px;
+  }
+  .buttn{
+    margin-left: -5px;
+  }
+}
+*/

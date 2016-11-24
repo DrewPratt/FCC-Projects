@@ -44,9 +44,3 @@ a{
 #drew:hover{
    color: blue;
 }
-@media (min-width: 400px){
-   .header{
-   display: block;
-   height: 200px;
-}
-}
