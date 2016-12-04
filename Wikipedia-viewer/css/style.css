@@ -1,5 +1,5 @@
 body{
-  background-color: #64B5F6;
+  background-color: #90A4AE;
 }
 .centr{
   text-align: center;
@@ -18,22 +18,24 @@ body{
 .res0, .res1, .res2, .res3, .res4, .res5, .res6, .res7, .res8, .res9{
   text-align: left;
   color: #666;
-  background-color: #BBDEFB;
-  border-left: 10px solid #1E88E5;
+  background-color: #ECEFF1;
+  border-left: 10px solid #4DD0E1;
+  display: none;
 }
 a{
   display: block;
   padding: 10px;
-  color: #607D8B;
+  color: #263238;
   transition: color .7s ease;
 }
 a:hover{
-  color: #263238;
+  color: #607D8B;
 }
 .container{
   margin: auto;
   width: 60%;
   padding-bottom: 50px;
+
 }
 .container1{
   margin: auto;
@@ -44,5 +46,15 @@ form{
   margin-bottom: 25px;
 }
 input{
-  background-color: #BBDEFB;
+  background-color: #ECEFF1;
+  border-radius: 10px;
+}
+button{
+  display: none;
+}
+h1, h2{
+  color: #263238;
+}
+i{
+  color: #263238;
 }
