@@ -13,20 +13,20 @@ $(document).ready(function () {
         tests[1].style.color = cols;
         tests[2].style.color = cols;
     };
+    function getQuote(){
+      $.getJSON("https://random-quote-generator.herokuapp.com/api/quotes/random", function (json) {
+          console.log(json);
+          $('.quote').html(JSON.stringify(json.quote).replace(/[;]/g, ','));
+          $('.author').html(JSON.stringify("- " + json.author).replace(/["]/g, ''));
+      });
+    };
     colorChange();
-    $.getJSON("http://quotes.stormconsultancy.co.uk/random.json", function (json) {
-        console.log(json);
-        $('.quote').html(JSON.stringify(json.quote).replace(/[;]/g, ','));
-        $('.author').html(JSON.stringify("- " + json.author).replace(/["]/g, ''));
-    });
+    getQuote();
+
     $("#newQuote").on("click", function () {
         // Only change code below this line.
-        $.getJSON("http://quotes.stormconsultancy.co.uk/random.json", function (json) {
-            console.log(json);
-            $('.quote').html(JSON.stringify(json.quote).replace(/[;]/g, ','));
-            $('.author').html(JSON.stringify("-" + json.author).replace(/["]/g, ''));
-            colorChange();
-        });
+        colorChange();
+        getQuote();
     });
     $("#twitter").on("click", function () {
         var tweetQuote = document.getElementById("quoteText").innerHTML + "  " + document.getElementById("quoteAuthor").innerHTML;
@@ -35,7 +35,3 @@ $(document).ready(function () {
         a.href = "https://twitter.com/intent/tweet?text=" + tweetQuote;
     });
 });
-/* 
-var tweetQuote = document.getElementById("quoteText").innerHTML + document.getElementById("quoteAuthor").innerHTML ;
-        console.log(tweetQuote);
-        */
