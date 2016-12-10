@@ -1,5 +1,9 @@
 body{
-  background-color: #90A4AE;
+  background: #FAFAFA;
+  background-image: url(../img/Wikipedia-logo-v3.png);
+  background-size: 35%;
+  background-repeat: no-repeat;
+
 }
 .centr{
   text-align: center;
