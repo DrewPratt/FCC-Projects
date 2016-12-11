@@ -57,7 +57,7 @@ a{
 	margin-bottom: 60px;
 	/*height: 900px;*/
 	background-color: var(--color-primary-2);
-	
+
 }
 
 .contactBase {
@@ -99,7 +99,7 @@ a{
 }
 .jkid{
 	/* Just kidding, no portfolio item */
-	content: url("http://res.cloudinary.com/drewpratt/image/upload/v1475988719/zu2ky1_gu08dg.jpg")
+	content: url(../img/zu2ky1.jpg)
 }
 :root{
 --color-primary-0: #b7cdce;	/* Main light blue-grey */
