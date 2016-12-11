@@ -1,5 +1,9 @@
 body{
-  background-color: #90A4AE;
+  background: #FAFAFA;
+  background-image: url(../img/Wikipedia-logo-v3.png);
+  background-size: 35%;
+  background-repeat: no-repeat;
+
 }
 .centr{
   text-align: center;
@@ -49,12 +53,19 @@ input{
   background-color: #ECEFF1;
   border-radius: 10px;
 }
-button{
-  display: none;
-}
 h1, h2{
   color: #263238;
 }
 i{
   color: #263238;
+}
+@media (min-width: 768px){
+  button{
+    display: none;
+  }
+}
+@media (max-width: 767px){
+  button{
+    display: inline;
+  }
 }
