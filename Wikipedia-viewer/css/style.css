@@ -23,8 +23,12 @@ body{
   text-align: left;
   color: #666;
   background-color: #ECEFF1;
-  border-left: 10px solid #4DD0E1;
+  border-left: 10px solid #669ba2;
   display: none;
+  transition: border-left .7s ease;
+}
+.res0:hover, .res1:hover, .res2:hover, .res3:hover, .res4:hover, .res5:hover, .res6:hover, .res7:hover, .res8:hover, .res9:hover{
+  border-left: 10px solid #4DD0E1;
 }
 a{
   display: block;
