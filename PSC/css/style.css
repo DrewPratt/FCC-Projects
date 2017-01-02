@@ -1,0 +1,90 @@
+/*Variables*/
+
+:root {
+	--color1: #000000;
+	/*  var(--color1);  --black  */
+	--color2: #ffffff;
+	/*  var(--color2);  --white  */
+	--color3: #279ef2;
+	/*  var(--color3);  --light blue */
+	--color4: #FF591B;
+	/*  var(--color4);  --base orange    */
+	--color5: #d83b00;
+	/*  var(--color5);  --highlight orange    */
+}
+
+
+/*Elements*/
+
+body {
+	background-color: var(--color2);
+}
+
+header {
+	margin-top: -20px;
+	padding-top: 20px;
+	background-color: var(--color3);
+	box-shadow: 5px 5px 5px var(--color1);
+}
+
+header p {
+	font-size: 2rem;
+	padding-bottom: 25px;
+}
+
+main {
+	margin-top: 25px;
+}
+
+form {
+	font-size: 1.5rem;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	background-color: var(--color3);
+	box-shadow: 5px -5px 5px var(--color1);
+}
+
+footer p {
+	font-size: 2rem;
+	vertical-align: text-top;
+}
+
+a {
+	color: var(--color5);
+}
+
+a:hover {
+	color: var(--color4);
+}
+
+
+/*Classes*/
+
+.centr {
+	text-align: center;
+}
+
+.outputs {
+	margin-top: 50px;
+	font-size: 3rem;
+}
+
+.fa {
+	margin-top: 5px;
+}
+
+.fa-twitter,
+.fa-github,
+.fa-linkedin {
+	margin-left: 20px;
+}
+
+
+/*Id's*/
