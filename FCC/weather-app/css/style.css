@@ -1,32 +1,50 @@
 body {
-    background-color: #afc1d3;
-    transition: all 1s ease-in;
+	background-color: #1565C0;
+	transition: all 1s ease-in;
+	height: 100%;
+}
+
+html {
+	height: 95%;
 }
 
 .center {
-    text-align: center;
+	text-align: center;
 }
 
 .buttn {
-    margin-top: 25px;
-    border-radius: 50%;
-    float: left;
-    margin-left: -25px;
-    position: relative;
+	margin-top: 25px;
+	border-radius: 50%;
+	float: left;
+	margin-left: -25px;
+	position: relative;
 }
 
 .temp {
-    position: relative;
-    float: right;
-    /*min-width: 135px;*/
+	position: relative;
+	float: right;
+	/*min-width: 135px;*/
 }
 
 h1,
 h2,
 h3,
-h4,
+h4 {
+	color: black;
+}
+
 .container {
-    color: #ffffff;
+	width: 60%;
+	height: 100%;
+	border-radius: 25px;
+	margin-top: 25px;
+	background-color: #ffffff;
+	opacity: .85;
+}
+
+#switch {
+	color: blue;
+	font-size: 2rem;
 }
 
 
