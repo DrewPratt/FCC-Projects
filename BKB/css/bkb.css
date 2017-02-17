@@ -1,0 +1,196 @@
+/*Variables*/
+
+:root {
+	--color1: #000000;
+	/*BLACK*/
+	/*  var(--color1);  */
+	--color2: #ffffff;
+	/*white*/
+	/*  var(--color2);  */
+	--color3: #660000;
+	/*BKB RED*/
+	/*  var(--color3);  */
+	--color4: #B33636;
+	/*higlight*/
+	/*  var(--color4);  */
+	--color5: #ffffff;
+	/*Undefined*/
+	/*  var(--color5);  */
+}
+
+
+/*Elements*/
+
+body {
+	background-color: var(--color1);
+	color: var(--color1);
+	width: 100%;
+	/* note add full body vertical linear gradient? */
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+}
+
+header ul {
+	line-height: 67px;
+	/*	text-align: center;*/
+	width: 100%;
+	margin: 0px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+header li {
+	list-style-type: none;
+	/*	float: left;*/
+	font-size: 2em;
+	font-weight: bold;
+	/*	width: 25%;*/
+	color: var(--color1);
+}
+
+li:hover {
+	color: var(--color4);
+}
+
+a {
+	color: var(--color1);
+}
+
+a:hover {
+	color: var(--color4);
+}
+
+p a {
+	color: white;
+}
+
+footer ul {
+	line-height: 17px;
+	list-style-type: none;
+	display: flex;
+	flex-flow: row nowrap;
+	/*	justify-content: flex-start;*/
+}
+
+footer li {
+	font-size: 1em;
+	margin-right: 50px;
+}
+
+footer li:nth-child(4) {
+	margin-left: auto;
+}
+
+footer {
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+}
+
+#hero {
+	height: 360px;
+	width: auto;
+	background-image: url("../assets/img/page elements/BKB/bkbcvrbanner.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	margin: auto;
+	margin-top: 200px;
+	clear: both;
+	margin-bottom: 500px;
+}
+
+article {
+	color: var(--color5);
+	clear: both;
+	display: block;
+	width: 800px;
+	margin: auto;
+}
+
+
+/*Classes*/
+
+.head1 {
+	height: 5px;
+	background-color: var(--color3);
+	margin-top: 7px;
+	padding: 0px;
+}
+
+.head2 {
+	height: 67px;
+	background-color: var(--color3);
+	margin-top: 7px;
+	padding: 0px;
+}
+
+.foot1 {
+	height: 5px;
+	background-color: var(--color3);
+	margin-top: 7px;
+}
+
+.foot2 {
+	height: 34px;
+	background-color: var(--color3);
+	margin-top: 7px;
+}
+
+.fa {
+	margin-top: 2px;
+}
+
+.fa-envelope {
+	margin-top: 6px;
+}
+
+
+/*I.D.s*/
+
+article#scFrame {
+	height: 500px;
+	width: 325px;
+	float: right;
+	margin-right: 320px;
+	margin-top: 5px;
+	display: block;
+}
+
+#about {
+	height: 500px;
+	display: inherit;
+}
+
+#about h3 {
+	margin-left: -50px;
+	font-size: 5em;
+}
+
+#about p {
+	font-size: 2em;
+}
+
+#pics {
+	height: 500px;
+}
+
+#videos {
+	height: 500px;
+}
+
+#contact {
+	height: 500px;
+}
+
+#email {
+	/*	text-align: right;*/
+	margin-right: 45px;
+	float: right;
+	font-size: 1.3em;
+}
