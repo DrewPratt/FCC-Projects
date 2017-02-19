@@ -218,7 +218,6 @@ article#pics{
 */
 
 #pics {
-	/*	height: 500px;*/
 	width: 60%;
 }
 
@@ -232,6 +231,11 @@ article#pics{
 
 #pics a {
 	/*	display: inline-block;*/
+}
+
+#pics .picsContent {
+	overflow: auto;
+	height: 500px;
 }
 
 article#videos div {
