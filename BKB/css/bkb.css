@@ -25,7 +25,6 @@ body {
 	background-color: var(--color1);
 	color: var(--color1);
 	width: 100%;
-	/* note add full body vertical linear gradient? */
 }
 
 header {
@@ -95,7 +94,7 @@ footer {
 #hero {
 	height: 360px;
 	width: auto;
-	background-image: url("../assets/img/page elements/BKB/bkbcvrbanner.jpg");
+	background-image: url("../assets/page elements/bkbcvrbanner.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
@@ -150,6 +149,20 @@ article {
 	margin-top: 6px;
 }
 
+.content h3 {
+	margin-left: -50px;
+	font-size: 3em;
+}
+
+.content p {
+	font-size: 2em;
+}
+
+.content a {
+	font-size: .5em;
+	margin-left: -50px;
+}
+
 
 /*I.D.s*/
 
@@ -162,22 +175,34 @@ article#scFrame {
 	display: block;
 }
 
+
+/*
+article#pics{
+	display: flex;
+	justify-content: flex-start;
+}
+*/
+
 #about {
 	height: 500px;
 	display: inherit;
 }
 
-#about h3 {
-	margin-left: -50px;
-	font-size: 5em;
-}
-
-#about p {
-	font-size: 2em;
-}
-
 #pics {
-	height: 500px;
+/*	height: 500px;*/
+	width: 60%;
+}
+
+#pics img {
+	width: 200px;
+	/*	height: 150px;*/
+	overflow: hidden;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
+#pics a {
+	/*	display: inline-block;*/
 }
 
 #videos {

@@ -6,8 +6,10 @@
 		Box Knife Betty Official
 	</title>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link type="text/css" href="css/lightbox.min.css" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<!--	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">-->
+	<!-- todo find out why bootstrap changes footer spacing	-->
+	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
 	<link href="css/bkb.css" rel="stylesheet" type="text/css"> </head>
 
 <body>
@@ -16,9 +18,9 @@
 		<div class="head2">
 			<ul>
 				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
 				<li><a href="#pics">Pics</a></li>
 				<li><a href="#videos">Video</a></li>
-				<li><a href="#about">About</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
@@ -31,29 +33,70 @@
 				<iframe width="100%" height="350" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/19758385&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 			</article>
 		</div>
-		<!-- TODO correctly order menu bar with content order -->
-		<article id="about">
-			<h3>About</h3>
-			<p>
-				Box Knife Betty was a four piece rock band from Chico, CA. Formed in early 2013. Their sound is best described as blues influenced heavy rock. With angsty, topical lyrical content the band takes on the divisive issues of the day and challenges the status quo without taking themselves too seriously. Influences range from Led Zeppelin, Jimi Hendrix, and Eric Clapton to Black Sabbath, Clutch, and Helmet.
-			</p>
-			<p><a href="#home">Back to top</a></p>
-		</article>
-		<article id="pics">
-			<!-- TODO bootstrap carousel system	-->
-			pics
-			<p><a href="#home">Back to top</a></p>
-		</article>
-		<article id="videos">
-			<!-- todo Youtube iframe video player -->
-			videos
-			<p><a href="#home">Back to top</a></p>
-		</article>
-		<article id="contact">
-			Contact
-			<p><a href="#home">Back to top</a>
-			</p>
-		</article>
+		<section class="content">
+			<article id="about">
+				<h3>About</h3>
+				<p>
+					Box Knife Betty was a four piece rock band from Chico, CA. Formed in early 2013. Their sound is best described as blues influenced heavy rock. With angsty, topical lyrical content the band takes on the divisive issues of the day and challenges the status quo without taking themselves too seriously. Influences range from Led Zeppelin, Jimi Hendrix, and Eric Clapton to Black Sabbath, Clutch, and Helmet.
+				</p>
+				<p><a href="#home">Back to top</a></p>
+				<p><a href="#pics">Next</a></p>
+
+			</article>
+			<article id="pics">
+				<h3>Pics</h3>
+				<div>
+					<div>
+						<a href="assets/PicFull/Shows.full.1.jpg" data-lightbox="Studio Session" data-title="Shows"><img src="assets/PicFull/Shows.full.1.jpg" alt=""></a>
+						<a href="assets/PicFull/Shows.full.2.jpg" data-lightbox="Studio Session" data-title="Shows"><img src="assets/PicFull/Shows.full.2.jpg" alt=""></a>
+						<a href="assets/PicFull/Shows.full.3.jpg" data-lightbox="Studio Session" data-title="Shows"><img src="assets/PicFull/Shows.full.3.jpg" alt=""></a>
+						<a href="assets/PicFull/Shows.full.4.jpg" data-lightbox="Studio Session" data-title="Shows"><img src="assets/PicFull/Shows.full.4.jpg" alt=""></a>
+					</div>
+					<div>
+						<a href="assets/PicFull/Shows.full.5.jpg" data-lightbox="Studio Session" data-title="Shows"><img src="assets/PicFull/Shows.full.5.jpg" alt=""></a>
+						<a href="assets/PicFull/Shows.full.6.jpg" data-lightbox="Studio Session" data-title="Shows"><img src="assets/PicFull/Shows.full.6.jpg" alt=""></a>
+						<a href="assets/PicFull/Shows.full.7.jpg" data-lightbox="Studio Session" data-title="Shows"><img src="assets/PicFull/Shows.full.7.jpg" alt=""></a>
+						<a href="assets/PicFull/Shows.full.8.jpg" data-lightbox="Studio Session" data-title="Shows"><img src="assets/PicFull/Shows.full.8.jpg" alt=""></a>
+					</div>
+					<div>
+						<a href="assets/PicFull/Studio.full.1.jpg" data-lightbox="Studio Session" data-title="Studio"><img src="assets/PicFull/Studio.full.1.jpg" alt=""></a>
+						<a href="assets/PicFull/Studio.full.2.jpg" data-lightbox="Studio Session" data-title="Studio"><img src="assets/PicFull/Studio.full.2.jpg" alt=""></a>
+						<a href="assets/PicFull/Studio.full.3.jpg" data-lightbox="Studio Session" data-title="Studio"><img src="assets/PicFull/Studio.full.3.jpg" alt=""></a>
+						<a href="assets/PicFull/Studio.full.4.jpg" data-lightbox="Studio Session" data-title="Studio"><img src="assets/PicFull/Studio.full.4.jpg" alt=""></a>
+					</div>
+					<div>
+						<a href="assets/PicFull/Studio.full.5.jpg" data-lightbox="Studio Session" data-title="Studio"><img src="assets/PicFull/Studio.full.5.jpg" alt=""></a>
+						<a href="assets/PicFull/Studio.full.6.jpg" data-lightbox="Studio Session" data-title="Studio"><img src="assets/PicFull/Studio.full.6.jpg" alt=""></a>
+						<a href="assets/PicFull/Studio.full.7.jpg" data-lightbox="Studio Session" data-title="Studio"><img src="assets/PicFull/Studio.full.7.jpg" alt=""></a>
+						<a href="assets/PicFull/Studio.full.8.jpg" data-lightbox="Studio Session" data-title="Studio"><img src="assets/PicFull/Studio.full.8.jpg" alt=""></a>
+					</div>
+					<div>
+						<a href="assets/PicFull/Fb.full.1.jpg" data-lightbox="Studio Session" data-title="Practice"><img src="assets/PicFull/Fb.full.1.jpg" alt=""></a>
+						<a href="assets/PicFull/Fb.full.2.jpg" data-lightbox="Studio Session" data-title="Practice"><img src="assets/PicFull/Fb.full.2.jpg" alt=""></a>
+						<a href="assets/PicFull/Fb.full.3.jpg" data-lightbox="Studio Session" data-title="Practice"><img src="assets/PicFull/Fb.full.3.jpg" alt=""></a>
+						<a href="assets/PicFull/Fb.full.4.jpg" data-lightbox="Studio Session" data-title="Practice"><img src="assets/PicFull/Fb.full.4.jpg" alt=""></a>
+					</div>
+					<div>
+						<a href="assets/PicFull/Fb.full.5.jpg" data-lightbox="Studio Session" data-title="Practice"><img src="assets/PicFull/Fb.full.5.jpg" alt=""></a>
+						<a href="assets/PicFull/Fb.full.6.jpg" data-lightbox="Studio Session" data-title="Practice"><img src="assets/PicFull/Fb.full.6.jpg" alt=""></a>
+						<a href="assets/PicFull/Fb.full.7.jpg" data-lightbox="Studio Session" data-title="Practice"><img src="assets/PicFull/Fb.full.7.jpg" alt=""></a>
+						<a href="assets/PicFull/Fb.full.8.jpg" data-lightbox="Studio Session" data-title="Practice"><img src="assets/PicFull/Fb.full.8.jpg" alt=""></a>
+						<p><a href="#home">Back to top</a></p>
+						<p><a href="#videos">Next</a></p>
+					</div>
+			</article>
+			<article id="videos">
+				<!-- todo Youtube iframe video player -->
+				<h3>Videos</h3>
+				<p><a href="#home">Back to top</a></p>
+				<p><a href="#contact">Next</a></p>
+			</article>
+			<article id="contact">
+				<h3>Contact</h3>
+				<p><a href="#home">Back to top</a>
+				</p>
+			</article>
+		</section>
 	</main>
 
 	<!--todo link footer icons to external sites -->
@@ -71,6 +114,7 @@
 		<div class="foot1"></div>
 	</footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
 	<script type="text/javascript" src="js/bkb.js"></script>
 </body>
 
