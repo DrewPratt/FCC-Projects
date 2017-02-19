@@ -5,6 +5,7 @@
 	<title>
 		Box Knife Betty Official
 	</title>
+	<link href="assets/page elements/a-master-favicon.ico" rel="icon">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link type="text/css" href="css/lightbox.min.css" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -38,9 +39,15 @@
 				<h3>About</h3>
 				<p>
 					Box Knife Betty was a four piece rock band from Chico, CA. Formed in early 2013. Their sound is best described as blues influenced heavy rock. With angsty, topical lyrical content the band takes on the divisive issues of the day and challenges the status quo without taking themselves too seriously. Influences range from Led Zeppelin, Jimi Hendrix, and Eric Clapton to Black Sabbath, Clutch, and Helmet.
+					<br>
+					<br> Shortly after recording their debut album, Monsters Among Us, in 2014 Box Knife Betty broke up and never released the record.
 				</p>
-				<p><a href="#home">Back to top</a></p>
-				<p><a href="#pics">Next</a></p>
+				<div class="contentNav">
+					<ul>
+						<li><a href="#home">Back to top</a></li>
+						<li><a href="#pics">Next</a></li>
+					</ul>
+				</div>
 
 			</article>
 			<article id="pics">
@@ -81,20 +88,38 @@
 						<a href="assets/PicFull/Fb.full.6.jpg" data-lightbox="Studio Session" data-title="Practice"><img src="assets/PicFull/Fb.full.6.jpg" alt=""></a>
 						<a href="assets/PicFull/Fb.full.7.jpg" data-lightbox="Studio Session" data-title="Practice"><img src="assets/PicFull/Fb.full.7.jpg" alt=""></a>
 						<a href="assets/PicFull/Fb.full.8.jpg" data-lightbox="Studio Session" data-title="Practice"><img src="assets/PicFull/Fb.full.8.jpg" alt=""></a>
-						<p><a href="#home">Back to top</a></p>
-						<p><a href="#videos">Next</a></p>
+					</div>
+					<div class="contentNav">
+						<ul>
+							<li><a href="#home">Back to top</a></li>
+							<li><a href="#about">Previous</a></li>
+							<li><a href="#videos">Next</a></li>
+						</ul>
 					</div>
 			</article>
 			<article id="videos">
-				<!-- todo Youtube iframe video player -->
 				<h3>Videos</h3>
-				<p><a href="#home">Back to top</a></p>
-				<p><a href="#contact">Next</a></p>
+				<div>
+					<iframe class="widget_iframe" src="http://www.reverbnation.com/widget_code/html_widget/artist_3310795?widget_id=51&posted_by=artist_3310795&pwc[design]=default&pwc[background_color]=%23333333&pwc[size]=fit" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+				</div>
+				<div class="contentNav">
+					<ul>
+						<li><a href="#home">Back to top</a></li>
+						<li><a href="#pics">Previous</a></li>
+						<li><a href="#contact">Next</a></li>
+					</ul>
+				</div>
 			</article>
 			<article id="contact">
 				<h3>Contact</h3>
-				<p><a href="#home">Back to top</a>
+				<p></p>Since Box Knife Betty is no longer together you cannot contact the band as such. You can use the links below to find out more
 				</p>
+				<div class="contentNav">
+					<ul>
+						<li><a href="#home">Back to top</a></li>
+						<li><a href="#videos">Previous</a></li>
+					</ul>
+				</div>
 			</article>
 		</section>
 	</main>
@@ -115,6 +140,11 @@
 	</footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/lightbox.js"></script>
+	<script>
+	lightbox.option({
+		'wrapAround': true
+	})
+</script>
 	<script type="text/javascript" src="js/bkb.js"></script>
 </body>
 
