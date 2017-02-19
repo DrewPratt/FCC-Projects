@@ -73,7 +73,7 @@ footer ul {
 	list-style-type: none;
 	display: flex;
 	flex-flow: row nowrap;
-	/*	justify-content: flex-start;*/
+	justify-content: space-around;
 }
 
 footer li {
@@ -81,9 +81,12 @@ footer li {
 	margin-right: 50px;
 }
 
+
+/*
 footer li:nth-child(4) {
 	margin-left: auto;
 }
+*/
 
 footer {
 	position: relative;
@@ -101,7 +104,7 @@ footer {
 	margin: auto;
 	margin-top: 200px;
 	clear: both;
-	margin-bottom: 500px;
+	margin-bottom: 200px;
 }
 
 article {
@@ -145,9 +148,13 @@ article {
 	margin-top: 2px;
 }
 
+
+/*
+
 .fa-envelope {
 	margin-top: 6px;
 }
+*/
 
 .content h3 {
 	margin-left: -50px;
@@ -229,6 +236,7 @@ article#pics{
 
 article#videos div {
 	height: 350px;
+	/*	margin: 0px;*/
 }
 
 
@@ -238,9 +246,11 @@ article#videos div {
 }
 */
 
+
+/*
 #email {
-	/*	text-align: right;*/
+	text-align: right;
 	margin-right: 45px;
 	float: right;
 	font-size: 1.3em;
-}
+}*/
