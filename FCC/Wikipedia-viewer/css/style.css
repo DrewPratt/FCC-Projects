@@ -22,16 +22,7 @@ body {
 	margin: auto;
 }
 
-.res0,
-.res1,
-.res2,
-.res3,
-.res4,
-.res5,
-.res6,
-.res7,
-.res8,
-.res9 {
+.res {
 	text-align: left;
 	color: #666;
 	background-color: #ECEFF1;
@@ -40,17 +31,9 @@ body {
 	transition: border-left .7s ease;
 }
 
-.res0:hover,
-.res1:hover,
-.res2:hover,
-.res3:hover,
-.res4:hover,
-.res5:hover,
-.res6:hover,
-.res7:hover,
-.res8:hover,
-.res9:hover {
+.res:hover {
 	border-left: 10px solid #4DD0E1;
+	border-radius: 5px;
 }
 
 a {
