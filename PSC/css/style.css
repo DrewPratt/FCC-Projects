@@ -7,29 +7,46 @@
 	/*  var(--color2);  --white  */
 	--color3: #279ef2;
 	/*  var(--color3);  --light blue */
-	--color4: #FF591B;
-	/*  var(--color4);  --base orange    */
-	--color5: #d83b00;
-	/*  var(--color5);  --highlight orange    */
+	--color4: #477E8E;
+	/*  var(--color4);  --base blue    */
+	--color5: #A3BEC6;
+	/*  var(--color5);  --highlight blue    */
 }
 
 
 /*Elements*/
 
 body {
+	margin: 0px;
+	padding: 0px;
 	background-color: var(--color2);
+	font-size: 16px;
 }
 
 header {
-	margin-top: -20px;
-	padding-top: 20px;
+	height: 177px;
 	background-color: var(--color3);
-	box-shadow: 5px 5px 5px var(--color1);
+	background-image: url("../img/Header Image desktop.png");
+	background-size: cover;
 }
 
 header p {
 	font-size: 2rem;
-	padding-bottom: 25px;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+}
+
+header img {
+	margin-top: 25px;
+}
+
+header h1 {
+	color: var(--color2);
+	float: right;
+	font-size: 6rem;
+	font-family: avenir;
+	font-weight: medium;
 }
 
 main {
@@ -40,6 +57,15 @@ form {
 	font-size: 1.5rem;
 }
 
+label {
+	font-size: 3rem;
+	line-height: 100%;
+}
+
+button {
+	border-radius: 5px;
+}
+
 footer {
 	position: absolute;
 	bottom: 0;
@@ -47,8 +73,7 @@ footer {
 	margin-right: auto;
 	left: 0;
 	right: 0;
-	background-color: var(--color3);
-	box-shadow: 5px -5px 5px var(--color1);
+	border-top: thick solid black;
 }
 
 footer p {
@@ -71,8 +96,19 @@ a:hover {
 	text-align: center;
 }
 
+
+/*
+	.hides {
+		visibility: visible;
+	}
+*/
+
+.inputBox {
+	height: 3rem;
+	border: 2px solid black;
+}
+
 .outputs {
-	margin-top: 50px;
 	font-size: 3rem;
 }
 
@@ -83,8 +119,21 @@ a:hover {
 .fa-twitter,
 .fa-github,
 .fa-linkedin {
-	margin-left: 20px;
+	margin-left: 64px;
+}
+
+.bBottom {
+	border-bottom: thick solid white;
 }
 
 
 /*Id's*/
+
+#calc,
+#outs {
+	line-height: 100%;
+	margin-top: 64px;
+}
+
+
+}
