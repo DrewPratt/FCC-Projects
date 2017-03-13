@@ -8,33 +8,67 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css"> </head>
 
 <body>
-	<header class="centr">
-		<h1><b>Playback Speed Calculator</b></h1>
-		<p>This project was created primarily for personal use/amusement. Hopefully you can get some benefit from it as well!</p>
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-1"></div>
+				<div class="col-xs-2">
+					<img src="img/PSC LOGO.png" alt="Header Image">
+				</div>
+				<div class="col-xs-8">
+					<h1 id="headerTitle">
+						Playback Speed Calculator
+					</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 bBottom"></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1">
+					<p>This project was created primarily for personal use/amusement. Hopefully you can get some benefit from it as well!</p>
+				</div>
+			</div>
+		</div>
 	</header>
 	<main>
 		<div class="container centr">
-			<p>Many sources of media such as YouTube, podcast apps, and audiobooks allow you to adjust the speed of playback.
-				<br>This of course changes the amount of time it takes to play back the media.
-				<br>This calculator takes the normal playback time in minutes and calculates the new playback time according to the selected playback speed.</p>
-			<form onsubmit="return false">
-				<label>Original playback time in minutes:</label>
-				<input type="text" id="inputMins">
-				<select id=playbackSelect>
-					<option value=".5">.5x</option>
-					<option value=".75">.75x</option>
-					<option selected="selected" value="1">1x</option>
-					<option value="1.25">1.25x</option>
-					<option value="1.5">1.5x</option>
-					<option value="1.75">1.75x</option>
-					<option value="2">2x</option>
-				</select>
-				<button onclick="calculator()">Submit</button>
-			</form>
-			<p class="outputs">Adjusted playback time: <span id="outputMins">0</span> Minutes<span id="punc">.</span></p>
+			<div id="description">
+				<p>Many sources of media such as YouTube, podcast apps, and audiobooks allow you to adjust the speed of playback.
+					<br>This of course changes the amount of time it takes to play back the media.
+					<br>This calculator takes the normal playback time in minutes and calculates the new playback time according to the selected playback speed.</p>
+			</div>
+			<div id="calc" class="row">
+				<div class="col-xs-5 col-xs-offset-2">
+					<label>Original playback time in minutes:</label>
+				</div>
+				<div class="col-xs-2">
+					<form onsubmit="return false">
+						<input class="inputBox" type="text" id="inputMins">
+						<select id=playbackSelect>
+							<option value=".5">.5x</option>
+							<option value=".75">.75x</option>
+							<option selected="selected" value="1">1x</option>
+							<option value="1.25">1.25x</option>
+							<option value="1.5">1.5x</option>
+							<option value="1.75">1.75x</option>
+							<option value="2">2x</option>
+						</select>
+						<button onclick="calculator()">Submit</button>
+					</form>
+				</div>
+			</div>
+			<div id="outs" class="row">
+				<div class="col-xs-5 col-xs-offset-2">
+					<label class="outputs">Adjusted playback time:</label>
+				</div>
+				<div class="col-xs-2">
+					<label><span id="outputMins">0</span> Minutes<span id="punc">.</span></label>
+				</div>
+			</div>
 		</div>
 		<footer class="centr">
-			<p>Contact me at: <a href="https://github.com/DrewPratt"><span class="fa fa-github fa-lg"></span></a> <a href="https://twitter.com/D_pparker"><span class="fa fa-twitter fa-lg"></span></a><a href="https://www.linkedin.com/in/drew-pratt-1906aa45"><span class="fa fa-linkedin fa-lg"></span></a></p>
+			<p>Contact me here: <a href="https://github.com/DrewPratt"><span class="fa fa-github fa-lg"></span></a> <a href="https://twitter.com/D_pparker"><span class="fa fa-twitter fa-lg"></span></a><a href="https://www.linkedin.com/in/drew-pratt-1906aa45"><span class="fa fa-linkedin fa-lg"></span></a></p>
 		</footer>
 	</main>
 	<script src="js/main.js"></script>
