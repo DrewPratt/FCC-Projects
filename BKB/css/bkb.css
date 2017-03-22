@@ -227,10 +227,13 @@ article#pics{
 	overflow: hidden;
 	margin-left: 50px;
 	margin-bottom: 10px;
+	filter: grayscale(70%);
+	transition: filter 1s ease;
 }
 
-#pics a {
+#pics img:hover {
 	/*	display: inline-block;*/
+	filter: grayscale(30%);
 }
 
 #pics .picsContent {
