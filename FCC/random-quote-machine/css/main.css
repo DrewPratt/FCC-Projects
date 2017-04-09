@@ -1,0 +1,73 @@
+body {
+	background-color: lightgrey;
+	transition: all 1s ease-in;
+}
+
+#quote-box {
+	position: relative;
+	background-color: white;
+	width: 70%;
+	height: 60vh;
+	margin: 50px auto;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.colors {
+	transition: all 1s ease-in;
+}
+
+button {
+	width: 150px;
+	height: 35px;
+	margin: 25px 50px;
+	border: none;
+	border-radius: 10px;
+	background-color: cornflowerblue;
+	color: white;
+	font-size: 1em;
+}
+
+button i {
+	margin-right: 15px;
+}
+
+h4 {
+	margin-top: 25px;
+	font-size: 3em;
+}
+
+h6 {
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+	font-size: 1.5em;
+}
+
+footer {
+	/*	bottom: 0;*/
+	font-size: 2em;
+	/*	margin: 0px auto;*/
+	/*	text-align: center;*/
+}
+
+footer p {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+footer p i {
+	margin: 0px 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer i {
+	color: darkgrey;
+}
+
+footer i:hover {
+	color: lightgray;
+}
