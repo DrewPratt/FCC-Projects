@@ -7,11 +7,9 @@ let func = {
 		bods[0].style.backgroundColor = cols;
 		tests[0].style.color = cols;
 		tests[1].style.color = cols;
-		console.log(tests);
 	},
 	getQuote: function () {
 		$.getJSON("https://random-quote-generator.herokuapp.com/api/quotes/random", function (json) {
-			//			console.log(json);
 			$('#text').html(JSON.stringify(json.quote).replace(/[;]/g, ','));
 			$('#author').html(JSON.stringify("- " + json.author).replace(/["]/g, ''));
 		});
@@ -28,7 +26,6 @@ $(document).ready(function () {
 	});
 	$("#tweet-quote").on("click", function () {
 		var tweetQuote = document.getElementById("text").innerHTML + "  " + document.getElementById("author").innerHTML;
-		console.log(tweetQuote);
 		var a = document.getElementById("tweet-quote");
 		a.href = "https://twitter.com/intent/tweet?text=" + tweetQuote;
 	});
