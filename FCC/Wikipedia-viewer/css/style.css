@@ -108,14 +108,14 @@ footer a {
 	display: inline;
 }
 
-@media (min-width: 768px) {
-	button {
-		display: none;
-	}
+button {
+	display: none;
 }
 
 @media (max-width: 767px) {
 	button {
 		display: inline;
+		border: 1px solid black;
+		border-radius: 5px;
 	}
 }
