@@ -1,0 +1,14 @@
+{
+  "name": "patatap",
+  "version": "1.0.0",
+  "description": "Udemy Patatap Clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Drew Pratt",
+  "license": "ISC",
+  "dependencies": {
+    "paper": "^0.11.3"
+  }
+}
